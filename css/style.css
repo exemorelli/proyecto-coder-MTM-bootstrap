@@ -1,0 +1,14 @@
+.navbar-brand img {
+    height: 75px;
+}
+
+.backStyle {
+    background: rgb(187, 195, 153);
+    background: linear-gradient(270deg, rgba(187, 195, 153, 1) 0%, rgba(209, 212, 194, 1) 43%, rgba(228, 235, 192, 1) 100%);
+    box-shadow: 0px 0px 10px grey;
+}
+
+.bi {
+    color: rgb(153, 162, 113);
+    font-size: 30px;
+}
