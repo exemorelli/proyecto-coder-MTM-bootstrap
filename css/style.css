@@ -5,6 +5,10 @@ h3 {
     font-weight: 700;
 }
 
+ol, ul {
+    list-style: none;
+}
+
 .navbar-brand img {
     height: 75px;
 }
@@ -175,6 +179,7 @@ h3 {
     box-shadow: -17px 17px 33px #afafaf,
         17px -17px 33px #ffffff;
     margin: 0px 20px 50px 20px;
+    box-sizing: border-box;
 }
 
 .center {
@@ -303,4 +308,68 @@ h3 {
 
 .pages__empresa img {
     height: 100%;
+}
+
+.pages__contacto__form {
+    padding: 30px;
+    grid-area: formulario;
+}
+
+.pages__contacto__form__block {
+    padding: 5px;
+}
+
+.pages__contacto__form label {
+    padding: 5px;
+    /* border: solid 1px brown; */
+}
+
+.pages__contacto__form input {
+    margin: 5px;
+    /* border: solid 1px green; */
+    font-size: 1rem;
+}
+
+.pages__contacto__form select {
+    font-size: 1rem;
+}
+
+.pages__contacto__form textarea {
+    font-size: 1rem;
+    display: block;
+    width: 100%;
+    padding: 10px;
+}
+
+.pages__contacto__form fieldset {
+    border: 1px solid black;
+    padding: 30px;
+}
+
+.pages__contacto__form fieldset legend {
+    padding: 10px;
+    /* font-size: 3rem; */
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.pages__contacto__data h2 {
+    text-align: center;
+}
+
+.pages__contacto__data ul {
+    padding: 10px;
+    text-align: center;
+}
+
+.map--responsive{
+    height: 450px;
+    margin: 30px;
+}
+
+.map--responsive iframe{
+    height:100%;
+    width:100%;
+    margin: 0 auto;
 }

@@ -39,6 +39,99 @@
         </nav>
     </header>
 
+    <!-- Comienzo del main -->
+    <main>
+        <h1 class="pageTitle">Contacto</h1>
+        <section class="container">
+            <!-- Comienzo del formulario de contacto -->
+            <div class="row justify-content-center align-items-center">
+                <article class="col-12 col-lg-10 col-xl-8 col-xxl-6 pages__contacto__form">
+                    <form action="https://formspree.io/f/mbjwzqrv" method="post">
+                        <fieldset>
+                            <legend class="style--h2">Indíquenos su consulta</legend>
+                            <div class="pages__contacto__form__block">
+                                <label for="nombre-completo-id">Nombre completo</label>
+                                <input type="text" name="nombre-completo" id="nombre-completo-id"
+                                    placeholder="Nombre Apellido" required>
+                            </div>
+                            <div class="pages__contacto__form__block">
+                                <label for="correo-id">Correo electrónico</label>
+                                <input type="email" name="correo" id="correo-id" placeholder="nombre@ejemplo.com">
+                            </div>
+                            <div class="pages__contacto__form__block">
+                                <label for="celular-id">Teléfono celular</label>
+                                <input type="tel" name="celular" id="celular-id" placeholder="291 507-2389" required>
+                            </div>
+                            <div class="pages__contacto__form__block">
+                                <p>Selecione el producto de su interés:</p>
+                                <div>
+                                    <input type="radio" name="categoria" id="porton-id" value="porton">
+                                    <label for="porton-id">Portón</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="categoria" id="frente-parrilla-id"
+                                        value="frente-parrilla">
+                                    <label for="frente-parrilla-id">Frente de parrilla</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="categoria" id="puerta-id" value="puerta">
+                                    <label for="puerta-id">Puerta</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="categoria" id="escalera-id" value="escalera">
+                                    <label for="escalera-id">Escalera</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="categoria" id="galpon-id" value="galpon">
+                                    <label for="galpon-id">Galpón</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="categoria" id="otros-id" value="otros">
+                                    <label for="otros-id">Otros</label>
+                                </div>
+                            </div>
+                            <div class="pages__contacto__form__block">
+                                <label for="tipo-contacto-id">Seleccione el método de contacto preferido</label>
+                                <select name="tipo-contacto" id="tipo-contacto-id">
+                                    <option value="">Por favor elija una opción</option>
+                                    <option value="whasapp">WhatsApp</option>
+                                    <option value="llamada">Llamada telefónica</option>
+                                    <option value="email">Correo electrónico</option>
+                                </select>
+                            </div>
+                            <div class="pages__contacto__form__block">
+                                <label for="mensaje-id">Déjenos su mensaje:</label>
+                                <textarea name="mensaje" id="mensaje-id" rows="10"
+                                    placeholder="Por favor, indique algunas caracterísiticas del proyecto que desea realizar; por ejemplo, las dimensiones y diseño."></textarea>
+                            </div>
+                            <div>
+                                <input type="reset" value="Limpiar formulario">
+                                <input type="submit" value="Enviar">
+                            </div>
+                        </fieldset>
+                    </form>
+                </article>
+
+                <article class="col-12 col-lg-10 col-xl-8 col-xxl-6 pages__contacto__data">
+                    <h2 class="style--h2">¿Dónde encontrarnos?</h2>
+                    <ul>
+                        <li>Teniente Farías 435, Bahía Blanca, Argentina</li>
+                        <li>Ventas: +54 9 291 507-2389</li>
+                        <li>Administración: +54 9 291 539-6756</li>
+                        <li>ventas@mtm.com.ar</li>
+                        <li>info@mtm.com.ar</li>
+                    </ul>
+                    <div class="map--responsive">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3112.2837730171623!2d-62.27889278465456!3d-38.73424987959609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95edbcce59fb2ba7%3A0xf4f575969272f8f8!2sMTM%20Servicios%20Metalurgicos!5e0!3m2!1ses-419!2sar!4v1650200598144!5m2!1ses-419!2sar"
+                            style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
     <!-- Comienzo del footer -->
     <footer class="container">
         <div class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
