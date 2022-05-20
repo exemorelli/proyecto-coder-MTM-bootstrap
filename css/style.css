@@ -182,3 +182,67 @@ h3 {
     justify-content: center;
 }
 
+
+
+/* PAGES*/
+
+
+.pageTitle {
+    font-size: 2.7rem;
+    text-align: center;
+    padding: 20px;
+    margin: 30px 0px;
+    /* background-color: #EA515F; */
+    /* background-color: #B7094C; */
+    background: #EF476F;
+    color: whitesmoke;
+    text-shadow: 3px 3px 5px black;
+    box-shadow: 3px 3px 10px gray;
+}
+
+.pages__prod {
+    /* border: #57cc99 solid 1px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pages--h2 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.style--h2 {
+    font-size: 2.5rem;
+    /* color: #0091AD;*/
+    color: #118AB2;
+    text-shadow: 1px 1px 10px whitesmoke, 1px 1px 10px whitesmoke;
+    padding: 1rem;
+}
+
+.pages__prod .container {
+    display: flex;
+    flex-wrap: wrap;
+    /* border: solid 1px magenta; */
+    justify-content: center;
+    width: 90%;
+}
+
+.pages__prod__card {
+    width: 600px;
+    /* border: solid 1px red; */
+    padding: 15px 30px;
+    margin: 5px;
+    background-color: #98c1d9;
+    border-radius: 5px;
+}
+
+.pages__prod__card h3 {
+    padding: 5px;
+    font-size: 1.5rem;
+}
+
+.pages__prod__card img {
+    width: 100%;
+}
