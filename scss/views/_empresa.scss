@@ -1,0 +1,19 @@
+.pages__empresa {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 0 30px 0;
+}
+
+.pages__empresa__container {
+    display: flex;
+    align-items: center;
+}
+
+.pages__empresa__container p {
+    padding: 1rem;
+}
+
+.pages__empresa img {
+    height: 100%;
+}

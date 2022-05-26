@@ -1,6 +1,21 @@
-@import "./utilities/variables";
+@import 'base/reset';
+@import 'base/base';
+@import 'base/typo';
 
-h1, h2, h3 {
-    text-transform: uppercase;
-    font-weight: 700;
-}
+@import 'utilities/variables';
+
+@import 'layout/navigation';
+@import 'layout/grid';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/forms';
+@import 'layout/mediaqueries';
+
+@import 'components/buttons';
+@import 'components/maps';
+
+@import 'views/index';
+@import 'views/productos';
+@import 'views/servicios';
+@import 'views/empresa';
+@import 'views/contacto';
