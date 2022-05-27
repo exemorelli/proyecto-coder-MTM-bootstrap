@@ -1,0 +1,22 @@
+.pages__service--izq {
+    display: flex;
+    justify-content: flex-start;
+    /* background-color: #EF476F; */
+}
+
+.pages__service--der {
+    display: flex;
+    justify-content: flex-end;
+    /* background-color: #118AB2; */
+}
+
+.pages__service__card {
+    width: 700px;
+    max-width: 80%;
+    padding: 20px;
+    margin: 0 50px;
+
+    img {
+        width: 100%;
+    }
+}

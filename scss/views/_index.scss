@@ -1,0 +1,123 @@
+/* Estilos de la página de PRODUCTOS */
+
+.slogan {
+    margin: 50px;
+
+    &__text {
+        /* margin-bottom: 40px; */
+        font-size: 1rem;
+    }
+}
+
+.content {
+    /* display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-rows: auto;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        ". content ." */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "img1 text1"
+            "text2 img2"
+            "img3 text3"
+            "text4 img4";
+        /* background-color: lightgreen; */
+        /* grid-area: content; */
+        padding: 20px;
+        align-items: center;
+
+        article {
+            width: 30rem;
+        }
+
+        img {
+            width: 100%;
+            display: block;
+        }
+    }
+
+    &__img1 {
+        grid-area: img1;
+        /* background-color: yellow; */
+    }
+
+    &_text1 {
+        grid-area: text1;
+        /* background-color: red; */
+    }
+
+    &_text2 {
+        grid-area: text2;
+        /* background-color: magenta; */
+    }
+
+    &__img2 {
+        grid-area: img2;
+        /* background-color: midnightblue; */
+    }
+
+    &__img3 {
+        grid-area: img3;
+        /* background-color: tomato; */
+    }
+
+    &__text3 {
+        grid-area: text3;
+        /* background-color: maroon; */
+    }
+
+    &__text4 {
+        grid-area: text4;
+        /* background-color: mediumvioletred; */
+    }
+
+    &__img4 {
+        grid-area: img4;
+        /* background-color: teal; */
+    }
+
+    &__text__card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        /* background-color: whitesmoke; */
+
+        h3 {
+            font-size: 2rem;
+            padding: 3px;
+        }
+
+        p {
+            padding: 15px;
+            margin: 0 10%;
+            /* background-color: whitesmoke; */
+        }
+
+    }
+
+    &__map {
+        flex-direction: column;
+        align-items: center;
+
+        h2 {
+            font-size: 3rem;
+            padding: 1rem;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    }
+
+}

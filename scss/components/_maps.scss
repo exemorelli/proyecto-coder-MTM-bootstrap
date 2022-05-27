@@ -1,0 +1,19 @@
+.map {
+    border-radius: 12px;
+    background: linear-gradient(225deg, #cacaca, #f0f0f0);
+    box-shadow: -17px 17px 33px #afafaf,
+        17px -17px 33px #ffffff;
+    margin: 0px 20px 50px 20px;
+    box-sizing: border-box;
+}
+
+.map--responsive {
+    height: 450px;
+    margin: 30px;
+
+    iframe {
+        height: 100%;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
