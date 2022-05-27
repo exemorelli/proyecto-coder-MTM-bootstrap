@@ -1,4 +1,4 @@
-// Botones
+/* Estilos de los BOTONES */
 .info {
     font-size: 1rem;
     min-width: 130px;
@@ -17,24 +17,25 @@
     overflow: hidden;
     border: 2px solid #57cc99;
     color: #57cc99;
+
+    &:hover {
+        color: #fff;
+    }
+    
+    &:hover:after {
+        height: 100%;
+    }
+    
+    &:after {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        transition: all 0.3s ease;
+        left: 0;
+        bottom: 0;
+        height: 0;
+        width: 100%;
+        background: #57cc99;
+    }
 }
 
-.info:hover {
-    color: #fff;
-}
-
-.info:hover:after {
-    height: 100%;
-}
-
-.info:after {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    transition: all 0.3s ease;
-    left: 0;
-    bottom: 0;
-    height: 0;
-    width: 100%;
-    background: #57cc99;
-}

@@ -1,8 +1,3 @@
-#serv--id {
-    display: flex;
-    flex-direction: column;
-}
-
 .pages__service--izq {
     display: flex;
     justify-content: flex-start;
@@ -20,8 +15,8 @@
     max-width: 80%;
     padding: 20px;
     margin: 0 50px;
-}
 
-.pages__service__card img {
-    width: 100%;
+    img {
+        width: 100%;
+    }
 }

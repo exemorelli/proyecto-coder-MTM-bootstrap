@@ -4,30 +4,32 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
 
-.pages__prod .container {
-    display: flex;
-    flex-wrap: wrap;
-    /* border: solid 1px magenta; */
-    justify-content: center;
-    width: 90%;
-}
+    & .container {
+        display: flex;
+        flex-wrap: wrap;
+        /* border: solid 1px magenta; */
+        justify-content: center;
+        width: 90%;
+    }
 
-.pages__prod__card {
-    width: 600px;
-    /* border: solid 1px red; */
-    padding: 15px 30px;
-    margin: 5px;
-    background-color: #98c1d9;
-    border-radius: 5px;
-}
+    &__card {
+        width: 600px;
+        /* border: solid 1px red; */
+        padding: 15px 30px;
+        margin: 5px;
+        background-color: #98c1d9;
+        border-radius: 5px;
 
-.pages__prod__card h3 {
-    padding: 5px;
-    font-size: 1.5rem;
-}
+        h3 {
+            padding: 5px;
+            font-size: 1.5rem;
+        }
 
-.pages__prod__card img {
-    width: 100%;
+        img {
+            width: 100%;
+        }
+
+    }
+    
 }

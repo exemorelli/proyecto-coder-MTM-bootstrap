@@ -9,7 +9,6 @@
 @import 'layout/header';
 @import 'layout/footer';
 @import 'layout/forms';
-@import 'layout/mediaqueries';
 
 @import 'components/buttons';
 @import 'components/maps';
@@ -19,3 +18,5 @@
 @import 'views/servicios';
 @import 'views/empresa';
 @import 'views/contacto';
+
+@import 'layout/mediaqueries';

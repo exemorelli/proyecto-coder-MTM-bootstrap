@@ -1,4 +1,6 @@
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     text-transform: uppercase;
     font-weight: 700;
 }
@@ -45,17 +47,6 @@ body {
     padding: 1rem;
 }
 
-.map--responsive{
-    height: 450px;
-    
-    margin: 30px;
-}
-
-.map--responsive iframe{
-    height:100%;
-    width:100%;
-    margin: 0 auto;
-}
 
 /* Iconos redes sociales - Clase de bootstrap*/
 .bi {
