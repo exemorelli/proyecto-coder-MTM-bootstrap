@@ -47,45 +47,15 @@
         }
     }
 
-    &__img1 {
-        grid-area: img1;
-        /* background-color: yellow; */
+    @each $clase,
+    $valor in $gridIndex {
+        &__#{$clase} {
+            grid-area: $valor;
+            // /* GENERADO CON MAP */
+        }
     }
 
-    &_text1 {
-        grid-area: text1;
-        /* background-color: red; */
-    }
-
-    &_text2 {
-        grid-area: text2;
-        /* background-color: magenta; */
-    }
-
-    &__img2 {
-        grid-area: img2;
-        /* background-color: midnightblue; */
-    }
-
-    &__img3 {
-        grid-area: img3;
-        /* background-color: tomato; */
-    }
-
-    &__text3 {
-        grid-area: text3;
-        /* background-color: maroon; */
-    }
-
-    &__text4 {
-        grid-area: text4;
-        /* background-color: mediumvioletred; */
-    }
-
-    &__img4 {
-        grid-area: img4;
-        /* background-color: teal; */
-    }
+    ;
 
     &__text__card {
         display: flex;

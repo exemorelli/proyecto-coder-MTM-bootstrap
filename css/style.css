@@ -176,29 +176,21 @@ body {
       width: 100%;
       display: block; }
   .content__img1 {
-    grid-area: img1;
-    /* background-color: yellow; */ }
-  .content_text1 {
-    grid-area: text1;
-    /* background-color: red; */ }
-  .content_text2 {
-    grid-area: text2;
-    /* background-color: magenta; */ }
+    grid-area: img1; }
+  .content__text1 {
+    grid-area: text1; }
   .content__img2 {
-    grid-area: img2;
-    /* background-color: midnightblue; */ }
+    grid-area: img2; }
+  .content__text2 {
+    grid-area: text2; }
   .content__img3 {
-    grid-area: img3;
-    /* background-color: tomato; */ }
+    grid-area: img3; }
   .content__text3 {
-    grid-area: text3;
-    /* background-color: maroon; */ }
-  .content__text4 {
-    grid-area: text4;
-    /* background-color: mediumvioletred; */ }
+    grid-area: text3; }
   .content__img4 {
-    grid-area: img4;
-    /* background-color: teal; */ }
+    grid-area: img4; }
+  .content__text4 {
+    grid-area: text4; }
   .content__text__card {
     display: flex;
     flex-direction: column;
