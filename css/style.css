@@ -214,6 +214,12 @@ body {
       margin-top: 10px;
       margin-bottom: 10px; }
 
+.carousel-item h5 {
+  color: black; }
+
+.carousel-item p {
+  color: black; }
+
 .pages__prod {
   /* border: #57cc99 solid 1px; */
   display: flex;
