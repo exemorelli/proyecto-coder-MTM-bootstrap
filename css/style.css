@@ -1,7 +1,12 @@
 @charset "UTF-8";
 /* Reset/normalize */
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400&display=swap");
 ol, ul {
   list-style: none; }
+
+/* Tipografías */
+* {
+  font-family: 'Jost', sans-serif; }
 
 h1,
 h2,
@@ -204,6 +209,7 @@ body {
     .content__text__card p {
       padding: 15px;
       margin: 0 10%;
+      text-align: justify;
       /* background-color: whitesmoke; */ }
   .content__map {
     flex-direction: column;
