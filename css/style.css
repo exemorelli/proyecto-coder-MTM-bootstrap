@@ -1,6 +1,7 @@
 @charset "UTF-8";
+/* VARIABLES */
 /* Reset/normalize */
-@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;600;700&display=swap");
 ol, ul {
   list-style: none; }
 
@@ -32,9 +33,7 @@ body {
   text-align: center;
   padding: 20px;
   margin: 30px 0px;
-  /* background-color: #EA515F; */
-  /* background-color: #B7094C; */
-  background: #EF476F;
+  background: #B91646;
   color: whitesmoke;
   text-shadow: 3px 3px 5px black;
   box-shadow: 3px 3px 10px gray; }
@@ -44,10 +43,9 @@ body {
   margin-top: 30px; }
 
 .style--h2 {
-  font-size: 2.5rem;
-  /* color: #0091AD;*/
-  color: #118AB2;
-  text-shadow: 1px 1px 10px whitesmoke, 1px 1px 10px whitesmoke;
+  font-size: 3.5rem;
+  color: #B91646;
+  text-shadow: 1px 1px 10px #7e232398;
   padding: 1rem; }
 
 /* Iconos redes sociales - Clase de bootstrap*/
@@ -55,14 +53,17 @@ body {
   color: #99a271;
   font-size: 30px; }
 
-/* VARIABLES */
 /* Estilos del HEADER */
+header {
+  position: sticky;
+  top: 0px;
+  z-index: 10; }
+
 .navbar-brand img {
   height: 75px; }
 
 .backStyle {
-  background: #bbc399;
-  background: linear-gradient(270deg, #bbc399 0%, #d1d4c2 43%, #e4ebc0 100%);
+  background-color: #DFD8CA;
   box-shadow: 0px 0px 10px grey; }
 
 .nav-link {
@@ -80,7 +81,7 @@ body {
   transition-property: color;
   text-shadow: 1px 1px 5px blanchedalmond; }
   .nav-link:focus, .nav-link:hover {
-    color: #da251d; }
+    color: #ED2839; }
   .nav-link:focus:after, .nav-link:hover:after {
     width: 100%;
     left: 0%; }
@@ -154,13 +155,6 @@ body {
     font-size: 1rem; }
 
 .content {
-  /* display: grid;
-    grid-template-columns: 1fr 5fr 1fr;
-    grid-template-rows: auto;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-        ". content ." */
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -171,8 +165,6 @@ body {
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas: "img1 text1" "text2 img2" "img3 text3" "text4 img4";
-    /* background-color: lightgreen; */
-    /* grid-area: content; */
     padding: 20px;
     align-items: center; }
     .content__grid article {
@@ -201,16 +193,14 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 10px;
-    /* background-color: whitesmoke; */ }
+    padding: 10px; }
     .content__text__card h3 {
       font-size: 2rem;
       padding: 3px; }
     .content__text__card p {
       padding: 15px;
       margin: 0 10%;
-      text-align: justify;
-      /* background-color: whitesmoke; */ }
+      text-align: justify; }
   .content__map {
     flex-direction: column;
     align-items: center; }
@@ -225,31 +215,6 @@ body {
 
 .carousel-item p {
   color: black; }
-
-.pages__prod {
-  /* border: #57cc99 solid 1px; */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
-  .pages__prod .container {
-    display: flex;
-    flex-wrap: wrap;
-    /* border: solid 1px magenta; */
-    justify-content: center;
-    width: 90%; }
-  .pages__prod__card {
-    width: 600px;
-    /* border: solid 1px red; */
-    padding: 15px 30px;
-    margin: 5px;
-    background-color: #98c1d9;
-    border-radius: 5px; }
-    .pages__prod__card h3 {
-      padding: 5px;
-      font-size: 1.5rem; }
-    .pages__prod__card img {
-      width: 100%; }
 
 .pages__service--izq {
   display: flex;

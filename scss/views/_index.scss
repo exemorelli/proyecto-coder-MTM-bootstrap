@@ -10,13 +10,13 @@
 }
 
 .content {
-    /* display: grid;
-    grid-template-columns: 1fr 5fr 1fr;
-    grid-template-rows: auto;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-        ". content ." */
+    // display: grid;
+    // grid-template-columns: 1fr 5fr 1fr;
+    // grid-template-rows: auto;
+    // gap: 0px 0px;
+    // grid-auto-flow: row;
+    // grid-template-areas:
+    //     ". content .";
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,8 +32,8 @@
             "text2 img2"
             "img3 text3"
             "text4 img4";
-        /* background-color: lightgreen; */
-        /* grid-area: content; */
+        // background-color: lightgreen;
+        // grid-area: content;
         padding: 20px;
         align-items: center;
 
@@ -63,7 +63,6 @@
         justify-content: center;
         align-items: center;
         padding: 10px;
-        /* background-color: whitesmoke; */
 
         h3 {
             font-size: 2rem;
@@ -74,7 +73,6 @@
             padding: 15px;
             margin: 0 10%;
             text-align: justify;
-            /* background-color: whitesmoke; */
         }
 
     }
