@@ -63,12 +63,12 @@ header {
   height: 75px; }
 
 .backStyle {
-  background-color: #DFD8CA;
+  background-color: #19171A;
   box-shadow: 0px 0px 10px grey; }
 
 .nav-link {
   font-size: 18px;
-  color: #364047;
+  color: #FFFFFF;
   font-family: inherit;
   font-weight: 600;
   cursor: pointer;
@@ -79,9 +79,9 @@ header {
   transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
   transition-duration: 400ms;
   transition-property: color;
-  text-shadow: 1px 1px 5px blanchedalmond; }
+  text-shadow: 1px 1px 5px #E9322E; }
   .nav-link:focus, .nav-link:hover {
-    color: #ED2839; }
+    color: #E9322E; }
   .nav-link:focus:after, .nav-link:hover:after {
     width: 100%;
     left: 0%; }
@@ -115,8 +115,8 @@ header {
   z-index: 0;
   background: #fff;
   overflow: hidden;
-  border: 2px solid #57cc99;
-  color: #57cc99; }
+  border: 2px solid #B91646;
+  color: #B91646; }
   .info:hover {
     color: #fff; }
   .info:hover:after {
@@ -130,7 +130,7 @@ header {
     bottom: 0;
     height: 0;
     width: 100%;
-    background: #57cc99; }
+    background: #B91646; }
 
 .map {
   border-radius: 12px;

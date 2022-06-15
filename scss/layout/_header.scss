@@ -9,7 +9,7 @@ header {
 }
 
 .backStyle {
-  background-color: $color5;
+  background-color: $color2;
   // background: rgb(187, 195, 153);
   // background: linear-gradient(270deg, rgba(187, 195, 153, 1) 0%, rgba(209, 212, 194, 1) 43%, rgba(228, 235, 192, 1) 100%);
   box-shadow: 0px 0px 10px grey;
@@ -17,7 +17,8 @@ header {
 
 .nav-link {
   font-size: 18px;
-  color: #364047;
+  // color: #364047;
+  color: $color5;
   font-family: inherit;
   font-weight: 600;
   cursor: pointer;
@@ -28,12 +29,13 @@ header {
   transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
   transition-duration: 400ms;
   transition-property: color;
-  text-shadow: 1px 1px 5px blanchedalmond;
+  // text-shadow: 1px 1px 5px blanchedalmond;
+  text-shadow: 1px 1px 5px $color1;
 
   &:focus,
   &:hover {
     // color: #da251d;
-    color: $color-main;
+    color: $color1;
   }
 
   &:focus:after,
