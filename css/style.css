@@ -63,7 +63,8 @@ header {
   height: 75px; }
 
 .backStyle {
-  background-color: #19171A;
+  background: #2a262b;
+  background: linear-gradient(0deg, #2a262b 0%, #19171a 100%);
   box-shadow: 0px 0px 10px grey; }
 
 .nav-link {
