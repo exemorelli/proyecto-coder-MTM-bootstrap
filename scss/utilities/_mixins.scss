@@ -1,0 +1,4 @@
+@mixin darken($intensity, $url) {
+    background: rgba(0, 0, 0, $intensity) url($url);
+    background-blend-mode: darken;
+}

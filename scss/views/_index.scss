@@ -91,7 +91,6 @@
 
 }
 
-
 .carousel-item {
     h5 {
         color: black;
@@ -99,5 +98,30 @@
 
     p {
         color: black;
+    }
+}
+
+.hero {
+    @include darken(0.4, "../assets/img/mtm-hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh - 75px);
+    background-position:top;
+
+    &__container {
+        color: white;
+        border: solid;
+        padding: 2rem;
+        @include darken(0.4, "");
+    }
+
+    &--h1 {
+        padding: 0;
+        margin: 0;
+    }
+
+    &--p {
+        padding: 0;
+        margin: 0;
     }
 }

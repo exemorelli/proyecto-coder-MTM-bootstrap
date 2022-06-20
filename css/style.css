@@ -22,7 +22,8 @@ body {
 
 .center {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  align-items: center; }
 
 .img {
   box-shadow: 1px 1px 10px gray, 1px 1px 10px gray;
@@ -59,8 +60,11 @@ header {
   top: 0px;
   z-index: 10; }
 
-.navbar-brand img {
-  height: 75px; }
+.navbar-brand {
+  padding: 0px;
+  height: 59px; }
+  .navbar-brand img {
+    height: inherit; }
 
 .backStyle {
   background: #2a262b;
@@ -216,6 +220,26 @@ header {
 
 .carousel-item p {
   color: black; }
+
+.hero {
+  background: rgba(0, 0, 0, 0.4) url("../assets/img/mtm-hero.jpg");
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: calc(100vh - 75px);
+  background-position: top; }
+  .hero__container {
+    color: white;
+    border: solid;
+    padding: 2rem;
+    background: rgba(0, 0, 0, 0.4) url("");
+    background-blend-mode: darken; }
+  .hero--h1 {
+    padding: 0;
+    margin: 0; }
+  .hero--p {
+    padding: 0;
+    margin: 0; }
 
 :root {
   --surface-color: #fff;

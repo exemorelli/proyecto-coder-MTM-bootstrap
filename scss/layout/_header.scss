@@ -5,15 +5,20 @@ header {
   z-index: 10;
 }
 
-.navbar-brand img {
-  height: 75px;
+.navbar {
+
+  &-brand {
+    padding: 0px;
+    height: $height-header - $font-size;
+    
+    img {
+      height: inherit;
+    }
+  }
 }
 
 .backStyle {
   // background-color: $color2;
-  // background: rgb(187, 195, 153);
-  // background: linear-gradient(270deg, rgba(187, 195, 153, 1) 0%, rgba(209, 212, 194, 1) 43%, rgba(228, 235, 192, 1) 100%);
-
   background: rgb(42, 38, 43);
   background: linear-gradient(0deg, rgba(42, 38, 43, 1) 0%, rgba(25, 23, 26, 1) 100%);
   box-shadow: 0px 0px 10px grey;
