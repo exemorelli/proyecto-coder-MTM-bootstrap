@@ -2,3 +2,9 @@
     background: rgba(0, 0, 0, $intensity) url($url);
     background-blend-mode: darken;
 }
+
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
