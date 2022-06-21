@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <meta name="description" content="Estemos en contacto para brindarle una solución a su proyecto.">
     <meta name="keywords" content="whatsapp, contacto, redes sociales, email">
 
@@ -22,7 +22,7 @@
 <body>
     <!-- Comienzo del header -->
     <header>
-        <nav class="navbar navbar-expand-lg backStyle">
+        <nav class="navbar navbar-expand-lg navbar-dark backStyle">
             <div class="container">
                 <a class="navbar-brand" href="../index.html"><img src="../assets/img/logo-blanco.png"
                         alt="Logo MTM Servicios Metalúrgicos"></a>
@@ -55,46 +55,36 @@
                         <fieldset>
                             <legend class="style--h2">Indíquenos su consulta</legend>
                             <div class="pages__contacto__form__block">
-                                <label for="nombre-completo-id">Nombre completo</label>
+                                <!-- <label for="nombre-completo-id">Nombre completo</label> -->
                                 <input type="text" name="nombre-completo" id="nombre-completo-id"
-                                    placeholder="Nombre Apellido" required>
+                                    placeholder="Nombre completo" required class="pages__contacto__form__block__input">
                             </div>
                             <div class="pages__contacto__form__block">
-                                <label for="correo-id">Correo electrónico</label>
-                                <input type="email" name="correo" id="correo-id" placeholder="nombre@ejemplo.com">
+                                <!-- <label for="correo-id">Correo electrónico</label> -->
+                                <input type="email" name="correo" id="correo-id" placeholder="Correo electrónico"
+                                    class="pages__contacto__form__block__input">
                             </div>
                             <div class="pages__contacto__form__block">
-                                <label for="celular-id">Teléfono celular</label>
-                                <input type="tel" name="celular" id="celular-id" placeholder="291 507-2389" required>
+                                <!-- <label for="celular-id">Teléfono celular</label> -->
+                                <input type="tel" name="celular" id="celular-id" placeholder="Teléfono celular" required
+                                    class="pages__contacto__form__block__input">
                             </div>
+
+
                             <div class="pages__contacto__form__block">
-                                <p>Selecione el producto de su interés:</p>
-                                <div>
-                                    <input type="radio" name="categoria" id="porton-id" value="porton">
-                                    <label for="porton-id">Portón</label>
-                                </div>
-                                <div>
-                                    <input type="radio" name="categoria" id="frente-parrilla-id"
-                                        value="frente-parrilla">
-                                    <label for="frente-parrilla-id">Frente de parrilla</label>
-                                </div>
-                                <div>
-                                    <input type="radio" name="categoria" id="puerta-id" value="puerta">
-                                    <label for="puerta-id">Puerta</label>
-                                </div>
-                                <div>
-                                    <input type="radio" name="categoria" id="escalera-id" value="escalera">
-                                    <label for="escalera-id">Escalera</label>
-                                </div>
-                                <div>
-                                    <input type="radio" name="categoria" id="galpon-id" value="galpon">
-                                    <label for="galpon-id">Galpón</label>
-                                </div>
-                                <div>
-                                    <input type="radio" name="categoria" id="otros-id" value="otros">
-                                    <label for="otros-id">Otros</label>
-                                </div>
+                                <label for="producto-selecc-id">Selecione el producto de su interés</label>
+                                <select name="producto-selecc" id="producto-selecc-id">
+                                    <option value="">Por favor elija una opción</option>
+                                    <option value="portón">Portón</option>
+                                    <option value="frente-parrilla">Frente de parrilla</option>
+                                    <option value="puerta">Puerta</option>
+                                    <option value="escalera">Escalera</option>
+                                    <option value="galpon">Galpón</option>
+                                    <option value="otros">Otros</option>
+                                </select>
                             </div>
+
+
                             <div class="pages__contacto__form__block">
                                 <label for="tipo-contacto-id">Seleccione el método de contacto preferido</label>
                                 <select name="tipo-contacto" id="tipo-contacto-id">
@@ -105,11 +95,11 @@
                                 </select>
                             </div>
                             <div class="pages__contacto__form__block">
-                                <label for="mensaje-id">Déjenos su mensaje:</label>
+                                <label for="mensaje-id" class="mensaje-id">Déjenos su mensaje:</label>
                                 <textarea name="mensaje" id="mensaje-id" rows="10"
                                     placeholder="Por favor, indique algunas caracterísiticas del proyecto que desea realizar; por ejemplo, las dimensiones y diseño."></textarea>
                             </div>
-                            <div>
+                            <div class="pages__contacto__form__buttons">
                                 <input type="reset" value="Limpiar formulario">
                                 <input type="submit" value="Enviar">
                             </div>
@@ -121,10 +111,10 @@
                     <h2 class="style--h2">¿Dónde encontrarnos?</h2>
                     <ul>
                         <li>Teniente Farías 435, Bahía Blanca, Argentina</li>
-                        <li>Ventas: +54 9 291 507-2389</li>
-                        <li>Administración: +54 9 291 539-6756</li>
-                        <li>ventas@mtm.com.ar</li>
-                        <li>info@mtm.com.ar</li>
+                        <li><a href="tel:++5492915072389">Ventas: +54 9 291 507-2389</a></li>
+                        <li><a href="tel:+5492915396756">Administración: +54 9 291 539-6756</a></li>
+                        <li><a href="mailto:ventas@mtm.com.ar" target="_blank">ventas@mtm.com.ar</a></li>
+                        <li><a href="mailto:info@mtm.com.ar" target="_blank">info@mtm.com.ar</a></li>
                     </ul>
                     <div class="map--responsive">
                         <iframe
