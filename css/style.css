@@ -55,6 +55,48 @@ body {
   text-shadow: 1px 1px 10px #7e232398;
   padding: 1rem; }
 
+.highlight {
+  display: grid;
+  grid-template-columns: repeat(4, 250px);
+  grid-template-rows: 1fr;
+  grid-column-gap: 50px;
+  grid-row-gap: 10px;
+  grid-auto-flow: column;
+  justify-content: center;
+  background-color: #45433E;
+  padding: 3rem 10px;
+  margin: 50px 0; }
+  .highlight__article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+    .highlight__article__icon {
+      color: #B91646;
+      font-size: 50px; }
+    .highlight__article__title {
+      color: #FFFFFF; }
+    .highlight__article__description {
+      color: #FFFFFF;
+      text-align: justify;
+      height: auto; }
+
+@media only screen and (min-width: 650px) and (max-width: 1250px) {
+  .highlight {
+    grid-template-columns: repeat(2, 250px);
+    grid-template-rows: repeat(2, 1fr); } }
+
+@media only screen and (min-width: 450px) and (max-width: 649px) {
+  .highlight {
+    grid-template-columns: repeat(1, 350px);
+    grid-template-rows: repeat(4, 1fr); } }
+
+@media only screen and (min-width: 320px) and (max-width: 449px) {
+  .highlight {
+    grid-template-columns: repeat(1, 90%);
+    grid-template-rows: repeat(4, 1fr);
+    padding: 0; } }
+
 /* Estilos del HEADER */
 header {
   position: sticky;
@@ -106,8 +148,7 @@ header {
     transition-property: width, left; }
 
 /* Iconos redes sociales - Clase de bootstrap*/
-.bi {
-  color: #45433E;
+.social-icons {
   font-size: 30px; }
 
 /* Estilos de los BOTONES */
@@ -125,7 +166,7 @@ header {
   outline: none;
   border-radius: 5px;
   z-index: 0;
-  background: #fff;
+  background: #ffffff;
   overflow: hidden;
   border: 2px solid #B91646;
   color: #B91646; }
@@ -284,7 +325,8 @@ header {
     padding: 10px; }
     .content__text__card h3 {
       font-size: 2rem;
-      padding: 3px; }
+      padding: 5px;
+      text-align: center; }
     .content__text__card p {
       padding: 15px;
       margin: 0 10%;
@@ -334,9 +376,6 @@ header {
 
 * {
   box-sizing: border-box; }
-
-body {
-  background-color: #fef8f8; }
 
 .cards {
   display: grid;
@@ -567,4 +606,9 @@ i {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-    grid-template-areas: "img1" "text1" "img2" "text2" "img3" "text3"  "img4" "text4"; } }
+    grid-template-areas: "img1" "text1" "img2" "text2" "img3" "text3"  "img4" "text4"; }
+  .content__text__card p {
+    margin: 0;
+    padding: 0 0 15px 0; }
+  .content__grid img {
+    margin-top: 30px; } }

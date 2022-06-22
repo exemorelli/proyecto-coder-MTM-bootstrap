@@ -57,7 +57,6 @@
         }
     }
 
-    ;
 
     &__text__card {
         display: flex;
@@ -68,7 +67,8 @@
 
         h3 {
             font-size: 2rem;
-            padding: 3px;
+            padding: 5px;
+            text-align: center;
         }
 
         p {
