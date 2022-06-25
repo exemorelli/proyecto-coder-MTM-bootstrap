@@ -13,11 +13,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="../assets/fontawesome/css/all.css" rel="stylesheet">
 
     <link rel="shortcut icon" href="../assets/icons/logo-MTM-negro.ico" type="image/x-icon">
     <link rel="stylesheet" href="../css/style.css">
-
-    <link href="../assets/fontawesome/css/all.css" rel="stylesheet">
 
     <title>Conozca nuestros productos - MTM Servicios Metalúrgicos</title>
 </head>
@@ -53,7 +53,7 @@
 
         <div class="container">
             <!-- Sección de portones -->
-            <section class="pages__prod" id="portones">
+            <section data-aos="zoom-out" class="pages__prod" id="portones">
                 <h2 class="pages--h2 style--h2">Portones</h2>
 
                 <div class="cards">
@@ -67,13 +67,14 @@
                                     <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
                                         <path />
                                     </svg>
-                                    <i class="fa-regular fa-star"></i>
-                                    <!-- <img class="card__thumb" src="https://i.imgur.com/7D7I6dI.png" alt="" /> -->
-                                    <div class="card__header-text">
-                                        <h3 class="card__title">Portones levadizos</h3>
-                                        <span class="card__tagline">Lorem ipsum dolor sit amet consectetur</span>
-                                        <!-- <span class="card__status">1 hour ago</span> -->
+                                    <div class="i-container">
+                                        <i class="fa-regular fa-star"></i>
                                     </div>
+                                    <div class="card__header--text">
+                                        <h3 class="card__title">Portones levadizos</h3>
+                                        <span class="card__tagline">Nuestro producto estrella</span>
+                                    </div>
+                                    <div class="i-container"></div>
                                 </div>
                                 <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                     Asperiores,
@@ -91,13 +92,14 @@
                                     <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
                                         <path />
                                     </svg>
-                                    <!-- <img class="card__thumb" src="https://i.imgur.com/sjLMNDM.png" alt="" /> -->
-                                    <i class="fa-solid fa-warehouse"></i>
-                                    <div class="card__header-text">
-                                        <h3 class="card__title">Portones corredizos</h3>
-                                        <span class="card__tagline">Lorem ipsum dolor sit amet consectetur</span>
-                                        <!-- <span class="card__status">3 hours ago</span> -->
+                                    <div class="i-container">
+                                        <i class="fa-solid fa-warehouse"></i>
                                     </div>
+                                    <div class="card__header--text">
+                                        <h3 class="card__title">Portones corredizos</h3>
+                                        <span class="card__tagline">Nuestro producto estrella</span>
+                                    </div>
+                                    <div class="i-container"></div>
                                 </div>
                                 <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                     Asperiores,
@@ -115,13 +117,14 @@
                                     <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
                                         <path />
                                     </svg>
-                                    <i class="fa-solid fa-door-open"></i>
-                                    <!-- <img class="card__thumb" src="https://i.imgur.com/7D7I6dI.png" alt=""> -->
-                                    <div class="card__header-text">
+                                    <div class="i-container">
+                                        <i class="fa-solid fa-door-open"></i>
+                                    </div>
+                                    <div class="card__header--text">
                                         <h3 class="card__title">Portones abatibles</h3>
                                         <span class="card__tagline">Lorem ipsum dolor sit amet consectetur</span>
-                                        <!-- <span class="card__status">1 hour ago</span> -->
                                     </div>
+                                    <div class="i-container"></div>
                                 </div>
                                 <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                     Asperiores,
@@ -133,7 +136,7 @@
             </section>
 
             <!-- Sección de frentes de parrilla -->
-            <section class="pages__prod" id="frente-parrilla">
+            <section data-aos="zoom-out" class="pages__prod" id="frente-parrilla">
                 <h2 class="pages--h2 style--h2">Frentes de parrilla</h2>
 
                 <div class="cards">
@@ -147,13 +150,14 @@
                                     <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
                                         <path />
                                     </svg>
-                                    <i class="fa-solid fa-temperature-full"></i>
-                                    <!-- <img class="card__thumb" src="https://i.imgur.com/7D7I6dI.png" alt="" /> -->
-                                    <div class="card__header-text">
+                                    <div class="i-container">
+                                        <i class="fa-solid fa-temperature-full"></i>
+                                    </div>
+                                    <div class="card__header--text">
                                         <h3 class="card__title">Frente parrilla guillotina</h3>
                                         <span class="card__tagline">Lorem ipsum dolor sit amet consectetur</span>
-                                        <!-- <span class="card__status">1 hour ago</span> -->
                                     </div>
+                                    <div class="i-container"></div>
                                 </div>
                                 <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing
                                     elit.
@@ -172,18 +176,17 @@
                                     <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
                                         <path />
                                     </svg>
-                                    <!-- <img class="card__thumb" src="https://i.imgur.com/sjLMNDM.png" alt="" /> -->
-                                    <i class="fa-solid fa-utensils"></i>
-                                    <div class="card__header-text">
+                                    <div class="i-container">
+                                        <i class="fa-solid fa-utensils"></i>
+                                    </div>
+                                    <div class="card__header--text">
                                         <h3 class="card__title">Frente parrilla tijera</h3>
                                         <span class="card__tagline">Lorem ipsum dolor sit amet consectetur</span>
-                                        <!-- <span class="card__status">3 hours ago</span> -->
                                     </div>
+                                    <div class="i-container"></div>
                                 </div>
                                 <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing
-                                    elit.
-                                    Asperiores,
-                                    blanditiis?</p>
+                                    elit. Asperiores, blanditiis?</p>
                             </div>
                         </div>
                     </article>
@@ -197,13 +200,14 @@
                                     <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
                                         <path />
                                     </svg>
-                                    <i class="fa-brands fa-gripfire"></i>
-                                    <!-- <img class="card__thumb" src="https://i.imgur.com/7D7I6dI.png" alt=""> -->
-                                    <div class="card__header-text">
+                                    <div class="i-container">
+                                        <i class="fa-brands fa-gripfire"></i>
+                                    </div>
+                                    <div class="card__header--text">
                                         <h3 class="card__title">Frente parrilla guillotina invertida</h3>
                                         <span class="card__tagline">Lorem ipsum dolor sit amet consectetur</span>
-                                        <!-- <span class="card__status">1 hour ago</span> -->
                                     </div>
+                                    <div class="i-container"></div>
                                 </div>
                                 <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing
                                     elit.
@@ -216,7 +220,7 @@
             </section>
 
             <!-- Sección de estructuras y cerramientos -->
-            <section class="pages__prod" id="estructuras">
+            <section data-aos="zoom-out" class="pages__prod" id="estructuras">
                 <h2 class="pages--h2 style--h2">Estructuras y cerramientos</h2>
 
                 <div class="cards">
@@ -229,13 +233,14 @@
                                     <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
                                         <path />
                                     </svg>
-                                    <i class="fa-solid fa-person-shelter"></i>
-                                    <!-- <img class="card__thumb" src="https://i.imgur.com/7D7I6dI.png" alt="" /> -->
-                                    <div class="card__header-text">
+                                    <div class="i-container">
+                                        <i class="fa-solid fa-person-shelter"></i>
+                                    </div>
+                                    <div class="card__header--text">
                                         <h3 class="card__title">Pérgolas</h3>
                                         <span class="card__tagline">Lorem ipsum dolor sit amet consectetur</span>
-                                        <!-- <span class="card__status">1 hour ago</span> -->
                                     </div>
+                                    <div class="i-container"></div>
                                 </div>
                                 <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing
                                     elit.
@@ -254,13 +259,14 @@
                                     <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
                                         <path />
                                     </svg>
-                                    <!-- <img class="card__thumb" src="https://i.imgur.com/sjLMNDM.png" alt="" /> -->
-                                    <i class="fa-solid fa-landmark"></i>
-                                    <div class="card__header-text">
+                                    <div class="i-container">
+                                        <i class="fa-solid fa-landmark"></i>
+                                    </div>
+                                    <div class="card__header--text">
                                         <h3 class="card__title">Galpones y tinglados</h3>
                                         <span class="card__tagline">Lorem ipsum dolor sit amet consectetur</span>
-                                        <!-- <span class="card__status">3 hours ago</span> -->
                                     </div>
+                                    <div class="i-container"></div>
                                 </div>
                                 <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing
                                     elit.
@@ -279,13 +285,14 @@
                                     <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
                                         <path />
                                     </svg>
-                                    <i class="fa-solid fa-house-lock"></i>
-                                    <!-- <img class="card__thumb" src="https://i.imgur.com/7D7I6dI.png" alt=""> -->
-                                    <div class="card__header-text">
+                                    <div class="i-container">
+                                        <i class="fa-solid fa-house-lock"></i>
+                                    </div>
+                                    <div class="card__header--text">
                                         <h3 class="card__title">Frentes de rejas</h3>
                                         <span class="card__tagline">Lorem ipsum dolor sit amet consectetur</span>
-                                        <!-- <span class="card__status">1 hour ago</span> -->
                                     </div>
+                                    <div class="i-container"></div>
                                 </div>
                                 <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing
                                     elit.
@@ -298,7 +305,7 @@
             </section>
 
             <!-- Sección de interiores -->
-            <section class="pages__prod" id="interior">
+            <section data-aos="zoom-out" class="pages__prod" id="interior">
                 <h2 class="pages--h2 style--h2">Interiores</h2>
 
                 <div class="cards">
@@ -312,13 +319,14 @@
                                     <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
                                         <path />
                                     </svg>
-                                    <i class="fa-solid fa-stairs"></i>
-                                    <!-- <img class="card__thumb" src="https://i.imgur.com/7D7I6dI.png" alt="" /> -->
-                                    <div class="card__header-text">
+                                    <div class="i-container">
+                                        <i class="fa-solid fa-stairs"></i>
+                                    </div>
+                                    <div class="card__header--text">
                                         <h3 class="card__title">Escaleras</h3>
                                         <span class="card__tagline">Lorem ipsum dolor sit amet consectetur</span>
-                                        <!-- <span class="card__status">1 hour ago</span> -->
                                     </div>
+                                    <div class="i-container"></div>
                                 </div>
                                 <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing
                                     elit.
@@ -337,13 +345,14 @@
                                     <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
                                         <path />
                                     </svg>
-                                    <!-- <img class="card__thumb" src="https://i.imgur.com/sjLMNDM.png" alt="" /> -->
-                                    <i class="fa-solid fa-bars"></i>
-                                    <div class="card__header-text">
+                                    <div class="i-container">
+                                        <i class="fa-solid fa-bars"></i>
+                                    </div>
+                                    <div class="card__header--text">
                                         <h3 class="card__title">Barandas</h3>
                                         <span class="card__tagline">Lorem ipsum dolor sit amet consectetur</span>
-                                        <!-- <span class="card__status">3 hours ago</span> -->
                                     </div>
+                                    <div class="i-container"></div>
                                 </div>
                                 <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing
                                     elit.
@@ -377,9 +386,15 @@
         </div>
     </footer>
 
+    <!-- Script de Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
+    <!-- Scripts de AOS - Animaciones -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
