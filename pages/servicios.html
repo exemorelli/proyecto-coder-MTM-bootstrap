@@ -13,6 +13,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="../assets/fontawesome/css/all.css" rel="stylesheet">
 
     <link rel="shortcut icon" href="../assets/icons/logo-MTM-negro.ico" type="image/x-icon">
     <link rel="stylesheet" href="../css/style.css">
@@ -48,54 +50,39 @@
     <!-- Comienzo del main -->
     <main>
         <h1 class="pageTitle">Nuestros servicios</h1>
-        <section class="container" class="pages__service">
+        <section class="container pages__service">
             <!-- Hacer carrusel con varias imágenes en cada sección-->
             <!-- Servicio #1  - Chapa calada -->
-            <article class="pages__service--izq">
-                <div class="pages__service__card">
-                    <img class="img" src="../assets/img/corte-laser-01.jpeg" alt="Servicio de corte de chapa con láser">
-                    <div>
-                        <h2 class="style--h2">Chapas caladas - Diseño y corte láser</h2>
-                        <p>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus laboriosam a nesciunt
-                            laudantium
-                            consectetur, iure recusandae ipsum! Ducimus, sapiente. In tempora dolores unde cum laborum
-                            ab
-                            nisi corporis ad similique.
-                        </p>
-                    </div>
+            <!-- data-aos="fade-right" -->
+            <article data-aos="fade-right" id="chapaDecorativa"
+                class="pages__service__card pages__service__card--izq col-xl-8">
+                <div class="pages__service__card--container col-xl-4">
+                    <h4 class="pages__service__card__title">Chapas decorativas</h4>
+                    <p class="pages__service__card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi,
+                        a laborum repellendus qui aliquam, ut nam debitis aperiam excepturi hic obcaecati similique
+                        doloremque? Nam non totam sapiente saepe possimus dolorem.</p>
                 </div>
             </article>
 
             <!-- Servicio #2 - Corte y plegado -->
-            <article class="pages__service--der">
-                <div class="pages__service__card">
-                    <img class="img" src="../assets/img/plegado-01.jpg" alt="Servicio de corte y plegado de chapa">
-                    <div>
-                        <h2 class="style--h2">Corte y plegado de chapa</h2>
-                        <p>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi temporibus, iste voluptates
-                            nesciunt blanditiis facere iure necessitatibus quidem fuga neque cumque, cupiditate magni,
-                            rerum
-                            numquam eum commodi amet harum incidunt.
-                        </p>
-                    </div>
+            <!--  data-aos="fade-left" -->
+            <article data-aos="fade-left" id="cortePlegado" class="pages__service__card pages__service__card--der col-xl-8">
+                <div class="pages__service__card--container col-xl-4">
+                    <h4 class="pages__service__card__title">Corte y plegado</h4>
+                    <p class="pages__service__card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi,
+                        a laborum repellendus qui aliquam, ut nam debitis aperiam excepturi hic obcaecati similique
+                        doloremque? Nam non totam sapiente saepe possimus dolorem.</p>
                 </div>
             </article>
 
             <!-- Servicio #3 - Fabricación -->
-            <article class="pages__service--izq">
-                <div class="pages__service__card">
-                    <img class="img" src="../assets/img/pergolas/pergola-01.jpg" alt="Fabricación de estructuras">
-                    <div>
-                        <h2 class="style--h2">Fabricación de estructuras y proyectos a medida</h2>
-                        <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi praesentium quis dolor,
-                            animi
-                            natus omnis quo neque accusamus consequuntur quas saepe nisi eligendi officiis possimus
-                            temporibus sit quae quaerat sapiente.
-                        </p>
-                    </div>
+            <!-- data-aos="fade-right" -->
+            <article data-aos="fade-right" id="fabricacion" class="pages__service__card col-xl-8">
+                <div class="pages__service__card--container col-xl-4">
+                    <h4 class="pages__service__card__title">Fabricación de estructuras y proyectos a medida</h4>
+                    <p class="pages__service__card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi,
+                        a laborum repellendus qui aliquam, ut nam debitis aperiam excepturi hic obcaecati similique
+                        doloremque? Nam non totam sapiente saepe possimus dolorem.</p>
                 </div>
             </article>
 
@@ -105,27 +92,33 @@
 
     <!-- Comienzo del footer -->
     <footer class="container">
-        <div class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="d-flex flex-wrap justify-content-between align-items-center py-3 mt-4 border-top">
             <div class="col-md-4 d-flex align-items-center">
-                <!-- <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
-                <svg class="bi" width="30" height="24">
-                    <use xlink:href="#bootstrap"></use>
-                </svg>
-            </a> -->
                 <span class="mb-3 mb-md-0 text-muted">MTM Servicios Metalúrgicos © 2022</span>
             </div>
 
             <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-                <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-whatsapp social-icons"></i></a></li>
-                <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-instagram social-icons"></i></a></li>
-                <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-facebook social-icons"></i></a></li>
+                <li class="ms-3"><a class="text-muted" target="_blank" href="https://wa.me/message/74HYG4K5BCL4D1"><i
+                            class="bi bi-whatsapp social-icons"></i></a></li>
+                <li class="ms-3"><a class="text-muted" target="_blank"
+                        href="https://www.instagram.com/mtm_serviciosmetalurgicos/"><i
+                            class="bi bi-instagram social-icons"></i></a></li>
+                <li class="ms-3"><a class="text-muted" target="_blank"
+                        href="https://www.facebook.com/mtmserv.metalurgicos/"><i
+                            class="bi bi-facebook social-icons"></i></a></li>
             </ul>
         </div>
     </footer>
 
+    <!-- Script de Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
+    <!-- Scripts de AOS - Animaciones -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

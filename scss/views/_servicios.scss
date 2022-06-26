@@ -1,22 +1,54 @@
-.pages__service--izq {
+.pages__service {
     display: flex;
-    justify-content: flex-start;
-    /* background-color: #EF476F; */
-}
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
 
-.pages__service--der {
-    display: flex;
-    justify-content: flex-end;
-    /* background-color: #118AB2; */
-}
+    &__card {
+        height: 500px;
+        // width: 700px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 50px 0;
+        box-shadow: 10px 10px 10px #959794;
 
-.pages__service__card {
-    width: 700px;
-    max-width: 80%;
-    padding: 20px;
-    margin: 0 50px;
+        &--container {
+            color: $color5;
+            background-color: $color3;
+            position: relative;
+            padding: 20px;
+            margin: 30px;
+        }
 
-    img {
-        width: 100%;
+        &--der {
+            align-items: flex-end;
+        }
+
+        &__title {
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        &__text {
+            text-align: center;
+        }
+
+       
     }
+}
+
+#chapaDecorativa {
+    background-image: url(../assets/img/corte-laser-01.webp);
+}
+
+#cortePlegado {
+    background-image: url(../assets/img/plegado-01.webp);
+}
+
+#fabricacion {
+    background-image: url(../assets/img/pergolas/pergola-01.webp);
 }
