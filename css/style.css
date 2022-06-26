@@ -11,6 +11,9 @@ a {
   a:hover {
     color: #B91646; }
 
+.disclaimer {
+  display: none; }
+
 /* Tipografías */
 * {
   font-family: 'Jost', sans-serif; }
