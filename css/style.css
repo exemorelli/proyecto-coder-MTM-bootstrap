@@ -59,6 +59,9 @@ body {
   padding: 1rem;
   text-align: center; }
 
+.animationOverflow {
+  overflow: hidden; }
+
 .highlight {
   display: grid;
   grid-template-columns: repeat(4, 250px);
@@ -659,4 +662,6 @@ header {
   .style--h2 {
     font-size: 2rem; }
   .pageTitle {
-    font-size: 2.2rem; } }
+    font-size: 2.2rem; }
+  .cards {
+    grid-template-columns: repeat(auto-fit, 95%); } }
