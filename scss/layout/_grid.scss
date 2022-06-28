@@ -13,6 +13,7 @@
 
     &__article {
         @include center;
+        justify-content: flex-start;
         flex-direction: column;
         // padding: 10px;
 
@@ -34,7 +35,6 @@
     }
 
 }
-
 
 @media only screen and (min-width:650px) and (max-width:1250px) {
     .highlight {
