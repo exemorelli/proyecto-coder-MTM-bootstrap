@@ -596,6 +596,15 @@ header {
   padding: 10px;
   text-align: center; }
 
+.error404 {
+  text-align: center; }
+  .error404 p {
+    padding: 10px; }
+  .error404 div {
+    padding: 10px; }
+    .error404 div .info {
+      text-transform: uppercase; }
+
 @media (max-width: 1100px) {
   .content__grid article {
     width: 100%; } }
